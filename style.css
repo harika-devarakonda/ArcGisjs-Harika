@@ -1,0 +1,74 @@
+html, body, #viewMap{
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+#createButton{
+    position: relative;
+    top: -86%;
+    left: 1%;
+    padding: 12px;
+    margin: 5px;
+    cursor: pointer;
+    border:none;
+    background-color: white;
+    box-shadow: 1px 1px 1px rgb(227, 224, 224);
+    border-radius: 5px;
+}
+#createButton:hover{
+background-color: rgb(232, 228, 222);
+color:orange;
+border:none;
+}
+.popup {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    top: 1%;
+    left: 74px;
+    min-width: 280px;
+    display: none;
+  }
+  .popup:after, .popup:before {
+    bottom: 5%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    transform: translateY(-50%);
+  }
+  .popup:after {
+    border-right-color: rgb(239, 237, 237);
+    border-width: 10px;
+    left: -20px;
+    margin-bottom: 1px;
+    transform: translateY(-50%);
+
+  }
+  .popup:before {
+    border-right-color: #afadad;
+    border-width: 11px;
+    left: -22px; 
+  }
+  .popup-closer {
+    text-decoration: none;
+    position: absolute;
+    top: 2px;
+    right: 8px;
+  }
+  .popup-closer:after {
+    content: "✖";
+  }
+  #createFeatureButton{
+    background-color: rgb(142, 142, 149);
+    padding: 10px;
+    color:white;
+    margin:5px;
+    border:none;
+    border-radius: 5px;
+  }

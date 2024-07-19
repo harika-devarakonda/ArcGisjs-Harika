@@ -1,0 +1,41 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [102.0, 0.5]
+        },
+        "properties": {
+          "name": "Feature 1",
+          "city": ["City A", "City B"],
+          "area": "Area X"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [103.0, 1.5]
+        },
+        "properties": {
+          "name": "Feature 2",
+          "city": ["City C", "City D"],
+          "area": "Area X"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [104.0, 2.5]
+        },
+        "properties": {
+          "name": "Feature 3",
+          "city": ["City E", "City F"],
+          "area": "Area X"
+        }
+      }
+    ]
+  }
